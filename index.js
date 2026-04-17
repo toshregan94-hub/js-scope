@@ -1,18 +1,18 @@
 // Write your solution in this fileburgers
-let burgers= [`Hamburger`, `Cheeseburger`];
+const burgers= [`Hamburger`, `Cheeseburger`];
 
-let featuredDrink=`Strawberry Milkshkake`;
+let featuredDrink= `Strawberry Milkshkake`;
 
 // function scoped variables
 function addBurger(){
-    let newBurger= `Flatburger`;
+    const newBurger= `Flatburger`;
     // Add it to the burgers array using .push()
     burgers.push(newBurger);
 }
 
     // block scope variable
     if(true) {
-        let anotherNewBurger= `Maple Bacon Burger`;
+        const anotherNewBurger= `Maple Bacon Burger`;
         burgers.push(anotherNewBurger);
 
 
