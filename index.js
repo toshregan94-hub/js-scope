@@ -1,4 +1,4 @@
-// Write your solution in this fileburgers
+// global scope
 const burgers= [`Hamburger`, `Cheeseburger`];
 
 let featuredDrink= `Strawberry Milkshkake`;
@@ -10,13 +10,16 @@ function addBurger(){
     burgers.push(newBurger);
 }
 
-    // block scope variable
+    // if(true) block- block scoped variable
     if(true) {
+        //block scoped variable using const
         const anotherNewBurger= `Maple Bacon Burger`;
+        // use .push() to add it to the burgers array
         burgers.push(anotherNewBurger);
 
 
     }
+    // function changeFeaturedDrink
     function changeFeaturedDrink(){
         featuredDrink= `The Javashake`;
 
