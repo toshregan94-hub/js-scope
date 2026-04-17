@@ -20,7 +20,7 @@ if(true) {
 }
 // function changeFeaturedDrink
 function changeFeaturedDrink(){
-    featuredDrink= `The Javashake`;
+    featuredDrink= `The JavaShake`;
 
 }
     
